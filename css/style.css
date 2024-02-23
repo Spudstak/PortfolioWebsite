@@ -1,13 +1,13 @@
 /*=======================================================================
-	
+
 	Item Name 		|		Symp - Responsive One Page VCard/Resume Template
-	
+
 	Author Name		|		Noman Ali Samejo
-	
+
 -------------------------------------------------------------------------
 	CSS Structure
 -------------------------------------------------------------------------
-	
+
 	01- General CSS
 	02- Preloader
 	03- Front Section
@@ -20,18 +20,10 @@
 	10- Work Page
 	11- Single Post Page
 	12- Responsive CSS
-	
+
 	*Colors are in separate files.
-	
+
 =======================================================================*/
-
-
-
-
-
-
-/*Importing Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,600,300|Playfair+Display:700italic,400italic|Crimson+Text:400italic,600italic|Open+Sans:400,700);
 
 /*=======================================================================
 	General CSS
@@ -148,9 +140,9 @@ body.section-show .close-btn{
 	width:100%;
 }
 .close-btn:hover > span:nth-of-type(2):before{
-	-webkit-transition-delay:.3s;	
-	-moz-transition-delay:.3s;	
-	transition-delay:.3s;	
+	-webkit-transition-delay:.3s;
+	-moz-transition-delay:.3s;
+	transition-delay:.3s;
 }
 .section-header h2{
 	font-size:32px;
@@ -294,11 +286,11 @@ body.section-show .section.active{
 	position:absolute;
 	top:50%;
 	left:50%;
-	-webkit-transform:translate(-50%, -50%);	
-	-moz-transform:translate(-50%, -50%);	
-	-ms-transform:translate(-50%, -50%);	
-	-o-transform:translate(-50%, -50%);	
-	transform:translate(-50%, -50%);	
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-o-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
 }
 .js body.loaded #preloader{
 	-webkit-transform:scale(.6) translateY(-100%);
@@ -740,12 +732,12 @@ body.section-show .transition-mask:before{
 @media (max-width: 992px){
 	.funfact:nth-of-type(2):after{
 		display:none;
-	}	
+	}
 }
 @media (max-width: 768px){
 	.funfact:after{
 		display:none;
-	}	
+	}
 }
 
 .funfact > .content > h4{
@@ -1441,7 +1433,7 @@ body .symp-btn{
 	font-size:20px;
 	color:#333;
 	text-decoration:none;
-	
+
 }
 .search-box > .search-btn:hover{
 	background:#D0D0D0;
@@ -1702,7 +1694,7 @@ body .symp-btn{
 	border-color:#B7A389;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
-	box-shadow:none;	
+	box-shadow:none;
 }
 .contact-form .form-group{
 	margin-bottom:25px;
@@ -1887,13 +1879,13 @@ body .symp-btn{
 		left:auto !important;
 		bottom:auto !important;
 	}
-	
+
 	.front-heading{
 		margin-top:80px;
 	}
 }
 @media (max-width:768px){
-	
+
 	.front-person-links{
 		margin-top:65px;
 	}
