@@ -1,1 +1,1 @@
-Website is currently hosted at spudstak.com
+An older version of my portfolio website. Current version is hosted at spudstak.com
